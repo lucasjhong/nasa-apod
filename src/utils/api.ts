@@ -3,7 +3,7 @@ import axios from 'axios';
 const apiKey = 'wHJeZHyfPT5XQrjHbU6zRTrwwQyOtPjphrjDPM2D';
 
 const instance = axios.create({
-	baseURL: `https://api.nasa.gov/planetary/apod`,
+	baseURL: `https://api.nasa.gov/planetary/apod/`,
 	// timeout: 20000,
 	params: {
 		api_key: apiKey,
