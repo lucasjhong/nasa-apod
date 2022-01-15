@@ -1,0 +1,60 @@
+$background: #222831;
+$primary: #00adb5;
+$white: #eeeeee;
+
+.main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+	h2,
+	h4,
+	p {
+		color: $white;
+	}
+}
+
+.cardContainer {
+	padding: 5%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin: auto;
+	min-height: 40vh;
+}
+
+.dateSelect {
+	height: 25vh;
+	margin: 20px;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.dateSelect {
+		height: 10vh;
+		margin: 20px;
+		width: 40%;
+		flex-direction: row;
+	}
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
