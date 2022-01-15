@@ -10,3 +10,7 @@ Each card displays a preview of the image and the ability to 'like', which on ho
 ## Preview
 
 ![preview](/public/nasa-apod-preview.png)
+
+## NASA API
+
+[More information on the API used can be found here, as well as some other cool APIs by NASA](https://api.nasa.gov/)
